@@ -33,7 +33,10 @@ jobs:
           static_site_generator: next
 
       - name: Install dependencies
-        run: npm ci
+        # `npm install` (rather than `npm ci`) so platform-specific optional
+        # deps (@emnapi/* WASM fallbacks for Tailwind v4) resolve correctly on
+        # the Linux runner, where the Windows-generated lockfile pruned them.
+        run: npm install --no-audit --no-fund
 
       - name: Build
         run: npm run build
