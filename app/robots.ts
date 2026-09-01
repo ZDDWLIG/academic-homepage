@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://ZDDWLIG.github.io/academic-homepage/sitemap.xml",
+    sitemap: "https://zddwlig.github.io/academic-homepage/sitemap.xml",
   };
 }

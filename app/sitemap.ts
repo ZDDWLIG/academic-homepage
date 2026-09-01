@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const SITE = "https://ZDDWLIG.github.io/academic-homepage";
+const SITE = "https://zddwlig.github.io/academic-homepage";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

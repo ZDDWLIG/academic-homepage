@@ -24,7 +24,7 @@ const plexMono = IBM_Plex_Mono({
   display: "swap",
 });
 
-const SITE_URL = "https://ZDDWLIG.github.io/academic-homepage";
+const SITE_URL = "https://zddwlig.github.io/academic-homepage";
 const TITLE = "Tianxiang Gao — AI × Seismic Geophysics";
 const DESCRIPTION =
   "Tianxiang Gao is a researcher working at the intersection of artificial intelligence and seismic geophysics.";

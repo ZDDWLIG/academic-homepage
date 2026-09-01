@@ -4,4 +4,4 @@
 // /cv.pdf) need it applied by hand.
 export const BASE_PATH = "/academic-homepage";
 
-export const SITE_URL = "https://ZDDWLIG.github.io" + BASE_PATH;
+export const SITE_URL = "https://zddwlig.github.io" + BASE_PATH;
