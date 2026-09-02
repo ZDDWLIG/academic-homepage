@@ -26,9 +26,9 @@ const links: SocialLink[] = [
   { label: "GitHub", href: profile.github, icon: GithubIcon, external: true },
   { label: "Email", href: `mailto:${profile.email}`, icon: Mail, external: false },
   { label: "ORCID", href: profile.orcid, icon: BadgeCheck, external: true },
-  { label: "Google Scholar", href: profile.googleScholar, icon: GraduationCap, external: true },
-  { label: "CV", href: `${BASE_PATH}${profile.cv}`, icon: FileText, external: false },
-];
+  { label: "Google Scholar", href: profile.googleScholar ?? "", icon: GraduationCap, external: true },
+  { label: "CV", href: profile.cv ? `${BASE_PATH}${profile.cv}` : "", icon: FileText, external: false },
+].filter((link) => link.href.length > 0);
 
 export default function SocialLinks({ className = "" }: { className?: string }) {
   return (

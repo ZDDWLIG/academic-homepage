@@ -2,6 +2,11 @@ import Reveal from "./Reveal";
 import { profile } from "@/data/profile";
 
 export default function Research() {
+  const directions = profile.researchDirections;
+  if (!directions || directions.length === 0) {
+    return null;
+  }
+
   return (
     <section id="research" className="border-t border-hairline">
       <div className="mx-auto max-w-4xl px-6 py-20 sm:px-8 sm:py-28">
@@ -12,7 +17,7 @@ export default function Research() {
         </Reveal>
 
         <div className="mt-10 space-y-12">
-          {profile.researchDirections.map((direction, i) => (
+          {directions.map((direction, i) => (
             <Reveal key={direction.index} delay={i * 0.05}>
               <div className="grid gap-3 sm:grid-cols-[4rem_1fr] sm:gap-6">
                 <span className="font-mono text-sm text-accent">

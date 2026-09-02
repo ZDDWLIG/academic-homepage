@@ -2,10 +2,10 @@ import { profile } from "@/data/profile";
 
 const footerLinks = [
   { label: "GitHub", href: profile.github, external: true },
-  { label: "Google Scholar", href: profile.googleScholar, external: true },
+  { label: "Google Scholar", href: profile.googleScholar ?? "", external: true },
   { label: "ORCID", href: profile.orcid, external: true },
   { label: "Email", href: `mailto:${profile.email}`, external: false },
-];
+].filter((link) => link.href.length > 0);
 
 export default function Footer() {
   return (

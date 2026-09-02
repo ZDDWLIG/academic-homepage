@@ -14,25 +14,19 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
-    title: "Seismic Foundation Models for Multi-view Prestack Data",
-    authors: "Tianxiang Gao, Author Two, Author Three",
-    venue: "Placeholder Journal, 2026",
-    year: 2026,
-    paperUrl: "#",
-    codeUrl: "#",
-  },
-  {
-    title: "Generative Reconstruction of Seismic Data with Diffusion Models",
-    authors: "Tianxiang Gao, Author Two, Author Three",
-    venue: "Placeholder Conference, 2024",
-    year: 2024,
-    paperUrl: "#",
-  },
-  {
-    title: "Deep Learning for Seismic Data Interpolation",
-    authors: "Tianxiang Gao, Author Two",
+    title: "HC-MVSNet: A probability sampling-based multi-view-stereo network with hybrid cascade structure for 3D reconstruction",
+    authors: "Tianxiang Gao, Zijian Hong, Yixing Tan, Lizhuo Sun, Yichen Wei, Jianwei Ma",
     venue: "Pattern Recognition Letters, 2024",
     year: 2024,
-    paperUrl: "#",
+    paperUrl: "https://www.sciencedirect.com/science/article/pii/S0167865524002113",
   },
+  {
+    title: "GeoFormer: Geometry-Aware Transformer and its application to 5D First-Arrival Picking",
+    authors: "Tianxiang Gao, Jianwei Ma",
+    venue: "Submitted, 2026",
+    year: 2026,
+    paperUrl: "https://arxiv.org/abs/2608.25668",
+    codeUrl: "https://github.com/ZDDWLIG/GeoFormer",
+  },
+
 ];
