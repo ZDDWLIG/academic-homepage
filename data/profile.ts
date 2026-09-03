@@ -42,7 +42,7 @@ export const profile: Profile = {
   ],
 
   // Placeholder avatar. Swap in a real portrait (e.g. /avatar.jpg) when ready.
-  avatar: "/avatar.svg",
+  avatar: "/avatar.jpg",
 
   // Links — replace placeholders with your real profiles.
   email: "25b912019@stu.hit.edu.cn", // TODO: replace with your email

@@ -48,7 +48,7 @@ export default function Hero() {
               width={240}
               height={240}
               unoptimized
-              className="h-48 w-48 sm:h-56 sm:w-56 lg:h-60 lg:w-60"
+              className="h-48 w-48 rounded-2xl object-cover sm:h-56 sm:w-56 lg:h-60 lg:w-60"
             />
           </Reveal>
         </div>

@@ -12,17 +12,33 @@ export interface Experience {
 
 export const experience: Experience[] = [
   {
-    period: "2024 — Present",
-    position: "Ph.D. Researcher",
+    period: "2025.09 — Present",
+    position: "Ph.D. Candidate",
     institution: "Harbin Institute of Technology",
     department: "School of Mathematics",
-    description: "Research on artificial intelligence and seismic geophysics.",
   },
   {
-    period: "2021 — 2024",
-    position: "Undergraduate Researcher",
+    period: "2024.07 — 2024.08",
+    position: "Visiting Student",
+    institution: "The Hong Kong University of Science and Technology",
+    department: "School of Mathematics",
+  },
+  {
+    period: "2023.08 — 2024.07",
+    position: "Research Intern",
+    institution: "Shanghai Artificial Intelligence Laboratory",
+    department: "AI for Science",
+  },
+  {
+    period: "2023.05 — 2023.10",
+    position: "Research Intern",
+    institution: "Harbin Institute of Technology",
+    department: "Research Center for Pattern Recognition and Intelligent Systems",
+  },
+  {
+    period: "2021.09 — 2025.06",
+    position: "Bachelor of Science",
     institution: "Harbin Institute of Technology",
     department: "School of Mathematics",
-    description: "Placeholder — replace with your actual experience.",
   },
 ];

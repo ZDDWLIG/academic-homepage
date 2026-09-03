@@ -9,7 +9,6 @@ export interface Award {
 }
 
 export const awards: Award[] = [
-  { year: "2025", title: "National Scholarship" },
-  { year: "2024", title: "Outstanding Student" },
-  { year: "2023", title: "Placeholder Award — replace with your own" },
+  { year: "2025", title: "National Scholarship (Top 0.2%)" },
+  { year: "2024", title: "First-Class Scholarship (Top 2%)" },
 ];
